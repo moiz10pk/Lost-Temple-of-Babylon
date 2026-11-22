@@ -1,0 +1,277 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66621dc0566f5ce46ac9320792a73b8b, type: 3}
+  m_Name: BabylonLibrary
+  m_EditorClassIdentifier: Assembly-CSharp::Babylon.BabylonLibrary
+  materials:
+  - name: Sandstone
+    material: {fileID: 2100000, guid: 039b4e23e1afeae45a63363cc6fd45dd, type: 2}
+  - name: SandstoneDark
+    material: {fileID: 2100000, guid: cd2cd844e40d71a4a8b022d023fe6928, type: 2}
+  - name: MudBrick
+    material: {fileID: 2100000, guid: 478d5a4d26e4b604ea888a2c1aa3adc2, type: 2}
+  - name: CarvedWall
+    material: {fileID: 2100000, guid: 6d6902ad861d30f45b21769b5c32d933, type: 2}
+  - name: LapisTile
+    material: {fileID: 2100000, guid: fd0a06e83c68bec43b53a9eb4ae605a5, type: 2}
+  - name: LapisStars
+    material: {fileID: 2100000, guid: a77b27b7387548f42951656da538fdb9, type: 2}
+  - name: CrackedFloor
+    material: {fileID: 2100000, guid: 33e34aaf241ffda4894f7b873a50bddb, type: 2}
+  - name: Sand
+    material: {fileID: 2100000, guid: 73f6d3d1ae9f0724b95d8b589eff2f84, type: 2}
+  - name: CaveRock
+    material: {fileID: 2100000, guid: f8d914a0176247044bfb0d7ec20136a3, type: 2}
+  - name: MossRock
+    material: {fileID: 2100000, guid: 8775c655a4356b144852a532ea546089, type: 2}
+  - name: GolemStone
+    material: {fileID: 2100000, guid: 69cfd733e8b9aad43ad080a0305994c1, type: 2}
+  - name: Wood
+    material: {fileID: 2100000, guid: d2d6ef9b5740e20428bdfcee5a64c209, type: 2}
+  - name: PalmTrunk
+    material: {fileID: 2100000, guid: a8626ef157c37c64ab03550e753a46dd, type: 2}
+  - name: Clay
+    material: {fileID: 2100000, guid: 3408b9b78a8a0da43bd16f072b8403b7, type: 2}
+  - name: ClayGlow
+    material: {fileID: 2100000, guid: 59f2de0afa52b014eabd64a5969b9877, type: 2}
+  - name: CuneiformFaint
+    material: {fileID: 2100000, guid: 99c5956c1da734c41b55612d155cb083, type: 2}
+  - name: Bronze
+    material: {fileID: 2100000, guid: 4a9948b04c071be41945dd9543bd714b, type: 2}
+  - name: BronzeBlade
+    material: {fileID: 2100000, guid: 8b66f7261707fd14592e4a7a43073252, type: 2}
+  - name: Gold
+    material: {fileID: 2100000, guid: 2618b08ed4f11cb4592555b13efa0f66, type: 2}
+  - name: GoldBright
+    material: {fileID: 2100000, guid: 80138c112f7964a4a883bf8efad06433, type: 2}
+  - name: Obsidian
+    material: {fileID: 2100000, guid: 13df376a8a031d94f9208033d6a9d9dc, type: 2}
+  - name: Linen
+    material: {fileID: 2100000, guid: 7c1fca7cd1328204e868ad834f12f5f7, type: 2}
+  - name: Leather
+    material: {fileID: 2100000, guid: 682ded8ab7eec844ba11ff897678169e, type: 2}
+  - name: Skin
+    material: {fileID: 2100000, guid: bf190cbac1bd0144ca1fd238b897e2b8, type: 2}
+  - name: LapisPlain
+    material: {fileID: 2100000, guid: a0c44aacec496ca438d7e7b7711dd18e, type: 2}
+  - name: SpiderBody
+    material: {fileID: 2100000, guid: ee9bc8bda200fb2458ce9ba7aaf1b16e, type: 2}
+  - name: SpiderLeg
+    material: {fileID: 2100000, guid: 53afc4cdc6562d7479e5dc265bf8aba3, type: 2}
+  - name: SpiderEye
+    material: {fileID: 2100000, guid: 3a3ab61561bc58545a3aef2426a0d53f, type: 2}
+  - name: ScorpionShell
+    material: {fileID: 2100000, guid: cfbc91fdea8e3324b9490b6ecf58e058, type: 2}
+  - name: Venom
+    material: {fileID: 2100000, guid: 4fbb167afc5333b4dbce6fdc5c03f97b, type: 2}
+  - name: GolemEye
+    material: {fileID: 2100000, guid: 5b23f36a06580df4ab4e571bc18ff8fa, type: 2}
+  - name: GolemRune
+    material: {fileID: 2100000, guid: b9c116b327cd04a479d4a645777724e3, type: 2}
+  - name: GolemCrystal
+    material: {fileID: 2100000, guid: 5b5cd876738d4584eb4d4813dc81e117, type: 2}
+  - name: GolemCore
+    material: {fileID: 2100000, guid: 8697821206336304eb7264ba37410a75, type: 2}
+  - name: Flame
+    material: {fileID: 2100000, guid: 7d89ad67a7e3ce648863467a59fa399b, type: 2}
+  - name: HealGlow
+    material: {fileID: 2100000, guid: 19bbb1774c02f8a4cbf9e8c44e015184, type: 2}
+  - name: RuneOff
+    material: {fileID: 2100000, guid: 50051698a966a644eaf82cf78bc081cb, type: 2}
+  - name: RuneOn
+    material: {fileID: 2100000, guid: cf396fbdcae14b84ab199d61be4f2cb5, type: 2}
+  - name: Iron
+    material: {fileID: 2100000, guid: bd614436b7c80a84e9bf601424e47021, type: 2}
+  - name: PalmLeaf
+    material: {fileID: 2100000, guid: d5b6e6b945e8eb443ae2b61e4c0445e5, type: 2}
+  - name: MapWall
+    material: {fileID: 2100000, guid: 3ccdb9e86b975104a802cf1f93bb7fd8, type: 2}
+  - name: MapFloor
+    material: {fileID: 2100000, guid: 5d62f69ffd91e9e4e8178e9125147725, type: 2}
+  - name: MapPlayer
+    material: {fileID: 2100000, guid: 92b852babb63e4949a64f82dd78373cb, type: 2}
+  - name: MapKey
+    material: {fileID: 2100000, guid: fd710d32b3a0b354489d17c1db948672, type: 2}
+  - name: MapExit
+    material: {fileID: 2100000, guid: 945b843d2bf1b6549bc5bcfbda6fc481, type: 2}
+  - name: MapSpider
+    material: {fileID: 2100000, guid: 3462b4f17ba18524f860c8466e08fc4a, type: 2}
+  - name: DecalRed
+    material: {fileID: 2100000, guid: ea92ab1e3d1beba4c8ac287cdc7b3389, type: 2}
+  - name: ShockRing
+    material: {fileID: 2100000, guid: dc22837ef9041594196c8c2cac1e5323, type: 2}
+  - name: P_Fire
+    material: {fileID: 2100000, guid: efaf699325cb900418ce05e6dd35906a, type: 2}
+  - name: P_Smoke
+    material: {fileID: 2100000, guid: b1f3172552e1f574daa3a3cd63eed475, type: 2}
+  - name: P_Dust
+    material: {fileID: 2100000, guid: 329784d17778484459c047094bf9ad5b, type: 2}
+  - name: P_Spark
+    material: {fileID: 2100000, guid: 6aab86729aaf0bd4ba5aab03c7417c9e, type: 2}
+  - name: P_Blood
+    material: {fileID: 2100000, guid: dd63cf69e52005f489accfe0431d3f83, type: 2}
+  - name: P_Heal
+    material: {fileID: 2100000, guid: 999907b6c40679a409f2a20213f183ff, type: 2}
+  - name: P_Mote
+    material: {fileID: 2100000, guid: c3d491d5fb0676745957bf4e46b975c5, type: 2}
+  - name: P_Core
+    material: {fileID: 2100000, guid: 105858e24f07e4947ac5188d1e322374, type: 2}
+  - name: Sky_Sunset
+    material: {fileID: 2100000, guid: 46d206741668b9d439236fdd0e97c0a5, type: 2}
+  - name: Sky_Night
+    material: {fileID: 2100000, guid: 93a0b75af190d654080ab3deca7f02ee, type: 2}
+  prefabs:
+  - name: FX_Dust
+    prefab: {fileID: 8710536111691124876, guid: ebc3fd026a7e377468424e61cc2a69f5, type: 3}
+  - name: FX_Sparks
+    prefab: {fileID: 9119431780050769687, guid: 0cdecf5d7041fd44e8927b9a18b7e540, type: 3}
+  - name: FX_Blood
+    prefab: {fileID: 4587467261327403650, guid: b4d7d242c7742274fb54dd6be9463f64, type: 3}
+  - name: FX_Heal
+    prefab: {fileID: 4133251283877010122, guid: 80b8d1fa7fd89cc41b8e1348afdfef9a, type: 3}
+  - name: FX_CoreHit
+    prefab: {fileID: 213240278555663080, guid: e0e83c4f4ec8451449770c52af9f182c, type: 3}
+  - name: FX_LightBurst
+    prefab: {fileID: 8010014943578259323, guid: 1c51ff30e403f434db2187fadfa41fe0, type: 3}
+  - name: FX_DustMotes
+    prefab: {fileID: 2442629390806212361, guid: 74dc7a08909fe31439f36a016c957ba0, type: 3}
+  - name: FX_FallingDust
+    prefab: {fileID: 1783094648690835562, guid: baa453bd7d63206459e5d7f6a63501ce, type: 3}
+  - name: Torch
+    prefab: {fileID: 1143398751615717372, guid: 58f6012e735f1b641ad3865747555c66, type: 3}
+  - name: WallTorch
+    prefab: {fileID: 2250834885829060178, guid: 423796a673ee81b41b44483889b9887e, type: 3}
+  - name: Brazier
+    prefab: {fileID: 3646902512467131306, guid: 2edd14c1d2909a24a8d178a2a25c3ef1, type: 3}
+  - name: HealingUrn
+    prefab: {fileID: 8400925857129979708, guid: a9126e41a1a1a324d873f089dca05b5f, type: 3}
+  - name: GoldenKey
+    prefab: {fileID: 2187894491190177016, guid: c0757d657b917b44ca8191e6d66dde45, type: 3}
+  - name: ClayTablet
+    prefab: {fileID: 7479167768084322963, guid: 5dfe095b6a2494c4c93728e733aa61ab, type: 3}
+  - name: SumerianTablet
+    prefab: {fileID: 7732627735641478059, guid: d2835dc42beda3348b89515a4ed7b474, type: 3}
+  - name: Sword
+    prefab: {fileID: 8366616419213858002, guid: 7146f1912fe248e42854cfecaad5a80e, type: 3}
+  - name: Lamassu
+    prefab: {fileID: 1576214416892086691, guid: d9b71c4a7c14ccb49831467386458001, type: 3}
+  - name: DatePalm
+    prefab: {fileID: 1587897027880044665, guid: 068295a0243114546bf1e8a6a81321a9, type: 3}
+  - name: Rock1
+    prefab: {fileID: 90133672179040951, guid: 865f7032eeb63404caeb5f14dac0057d, type: 3}
+  - name: Rock2
+    prefab: {fileID: 4323324279570613338, guid: 88ae46d7a8e3e1b4699abd13bbd11fdc, type: 3}
+  - name: Rock3
+    prefab: {fileID: 3514692248021002027, guid: a234434a694b51e4b97bc6499a70e912, type: 3}
+  - name: Pillar
+    prefab: {fileID: 685808303119653382, guid: 65ee2ef1709c0de4dbd38d4347ad9ac1, type: 3}
+  - name: StonePillar
+    prefab: {fileID: 959230599308787223, guid: 058a0a524233c44498ea4abfd78e05f0, type: 3}
+  - name: Boulder
+    prefab: {fileID: 6498105889687584575, guid: bee3ed285e43f0242b485ebcaf6e7d29, type: 3}
+  - name: Shockwave
+    prefab: {fileID: 8986948403525141150, guid: 9f0e7fe1428e47544bba39e940dcb508, type: 3}
+  - name: Decal_Ring
+    prefab: {fileID: 936477018720809031, guid: 1fdb63826ac22224b807f68ddf243637, type: 3}
+  - name: Decal_Arc
+    prefab: {fileID: 6289004972610065822, guid: cc3a777d3ead5304c921af22681b355b, type: 3}
+  - name: LionRelief
+    prefab: {fileID: 8581819847726580517, guid: 2f0d421241877f14a89f4b5a924ea2e0, type: 3}
+  - name: Player
+    prefab: {fileID: 6118646625707044337, guid: 4b33dfceb265f954f907cecb4ec01002, type: 3}
+  - name: Spider
+    prefab: {fileID: 5777492135039786533, guid: ee2cb969516870d42b2774aa37254fa4, type: 3}
+  - name: Scorpion
+    prefab: {fileID: 1025618745349504426, guid: c6cb7179f1d33e046b9275aeabbe44d4, type: 3}
+  - name: StoneMaster
+    prefab: {fileID: 1062618997861969406, guid: 9a76a0a1b5f32f04895922d7b2fdd242, type: 3}
+  - name: UI_Gameplay
+    prefab: {fileID: 819628524911184003, guid: 1e593c56de3c3f841b938435dae8143b, type: 3}
+  - name: UI_Riddle
+    prefab: {fileID: 310076060774570513, guid: 3f3ab81f0f79fa349bc42020f9391180, type: 3}
+  - name: UI_Victory
+    prefab: {fileID: 7680923854299700742, guid: 903e6359d48f1e44f820520479cfb387, type: 3}
+  - name: UI_MainMenu
+    prefab: {fileID: 1058489235739759022, guid: ebbd105aab0db8a4c8efeeced8ab047b, type: 3}
+  textures:
+  - name: Icon_Key
+    texture: {fileID: 2800000, guid: c5d220dccdd8c384a976af7a94350303, type: 3}
+  - name: Icon_Sword
+    texture: {fileID: 2800000, guid: 352b458bb4460b948b999ed9ed1c491b, type: 3}
+  sounds:
+  - id: 1
+    clip: {fileID: 8300000, guid: 401513709b1972441b3ce7837ca8fccd, type: 3}
+  - id: 2
+    clip: {fileID: 8300000, guid: ca233ed10ee77e44a810e9f6fd8e758e, type: 3}
+  - id: 3
+    clip: {fileID: 8300000, guid: 41585e6e4bb0d394caa737b4d1150ddd, type: 3}
+  - id: 4
+    clip: {fileID: 8300000, guid: 3694c000f22eef446b08cf2b43ec5da7, type: 3}
+  - id: 5
+    clip: {fileID: 8300000, guid: 32e68ec34fa9cd745a140359d12e69b9, type: 3}
+  - id: 6
+    clip: {fileID: 8300000, guid: 806dd096f25cc594185756d4137cbcf1, type: 3}
+  - id: 7
+    clip: {fileID: 8300000, guid: 675db655772fd0f41ad975058c96e966, type: 3}
+  - id: 8
+    clip: {fileID: 8300000, guid: 666c27bae1fe71a439386fa96ce97792, type: 3}
+  - id: 9
+    clip: {fileID: 8300000, guid: 615513ff06d08e9459958bd9c49e1100, type: 3}
+  - id: 10
+    clip: {fileID: 8300000, guid: 932188e12cb934e4db0ac2d67e1a4736, type: 3}
+  - id: 11
+    clip: {fileID: 8300000, guid: 7172c43933ab13443b2696d27fcbb414, type: 3}
+  - id: 12
+    clip: {fileID: 8300000, guid: 9df24ee3bac4d86428e087b818c26b8b, type: 3}
+  - id: 13
+    clip: {fileID: 8300000, guid: 5dc1b65a6268ff14aa25ec7c94bde36a, type: 3}
+  - id: 14
+    clip: {fileID: 8300000, guid: 977db3e707a5c354aac82dd07a3dfbd1, type: 3}
+  - id: 15
+    clip: {fileID: 8300000, guid: a10c4822bd0588b44856699f670c9473, type: 3}
+  - id: 16
+    clip: {fileID: 8300000, guid: 278c6807d0ab4ba418ce698f462870a9, type: 3}
+  - id: 17
+    clip: {fileID: 8300000, guid: cdf96436c4aeaad4abcedbfd0ed6b731, type: 3}
+  - id: 18
+    clip: {fileID: 8300000, guid: c100f1d83717025458ca4274d3f38dbb, type: 3}
+  - id: 19
+    clip: {fileID: 8300000, guid: cbd26ecad3ce1cc41802607bdb0c0ff9, type: 3}
+  - id: 20
+    clip: {fileID: 8300000, guid: 310c9c12aa816864499a18c22d0be9c0, type: 3}
+  - id: 21
+    clip: {fileID: 8300000, guid: 06b26f35a8dc36841b680089b7a7d339, type: 3}
+  - id: 22
+    clip: {fileID: 8300000, guid: 54d8aec758b6f7443a95ccad70810cc8, type: 3}
+  - id: 23
+    clip: {fileID: 8300000, guid: dbd979a26696fda4d96d42332a4ad103, type: 3}
+  - id: 24
+    clip: {fileID: 8300000, guid: 1d3c21e39baa8484982ce3a7608a9b77, type: 3}
+  - id: 25
+    clip: {fileID: 8300000, guid: f7a7a8b8d96c94c4cbf217d85683a6ee, type: 3}
+  - id: 26
+    clip: {fileID: 8300000, guid: dec2dc5e65658de45a1b61c64abd13af, type: 3}
+  - id: 27
+    clip: {fileID: 8300000, guid: ee92bae60eb27c34d8420458637386b4, type: 3}
+  - id: 28
+    clip: {fileID: 8300000, guid: 71fc5074f61eaed4cb1ff60d1f7cb529, type: 3}
+  music:
+  - id: 1
+    clip: {fileID: 8300000, guid: 3aa28cf0b37dca04c89c5f7993779dfc, type: 3}
+  - id: 2
+    clip: {fileID: 8300000, guid: 6e576dae4fc779e48bd56c03163b366f, type: 3}
+  - id: 3
+    clip: {fileID: 8300000, guid: 3bd9e830013c69b4bbb63304d2024b41, type: 3}
+  - id: 4
+    clip: {fileID: 8300000, guid: 98d95a3ec07294b4e9d7c9c14badb08b, type: 3}
+  - id: 5
+    clip: {fileID: 8300000, guid: a1f5806cbb9c3e344a2bb2e633d436f1, type: 3}
